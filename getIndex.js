@@ -18,6 +18,7 @@ String.prototype.getIndexAt = function(num){
     throw new Error("Out of index error")
 }
 
+var num = null
 
-console.log("Hello".getIndexAt(1))
+console.log(num)
 console.log(getIndexAt("Hello", 1))

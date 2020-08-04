@@ -10,5 +10,5 @@ function redVelvet(str, ltr){
     return counter
 }
 
-let red = redVelvet("Abednegobobo", "e")
+let red = redVelvet("Abasiyigiayayao! Ayaya! enofokkanpinaso", "a")
 console.log(red)

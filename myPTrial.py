@@ -26,3 +26,13 @@ def pali(txt):
         print("Please enter text only")         
 
 print(pali("Apapa"))
+
+#Trying out my hands on my word count
+def checky(words):
+    if type(words) is str:
+        original_word = words
+        words = words.lower()
+        print(original_word, words.count("a"))
+    else:
+        print("Abeg I no understand wetin u write for here. Write alphabets biko.")    
+print(checky("I want to eat party jollof with a bowl of peppered chicken"))

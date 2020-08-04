@@ -35,4 +35,4 @@ def checky(words):
         print(original_word, words.count("a"))
     else:
         print("Abeg I no understand wetin u write for here. Write alphabets biko.")    
-print(checky("I want to eat party jollof with a bowl of peppered chicken"))
+print(checky("Are you always this adamant? Alarming attitude I must say."))
